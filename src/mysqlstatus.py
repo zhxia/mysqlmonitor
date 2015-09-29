@@ -62,7 +62,7 @@ def get_args_parser():
         nargs='?',
         type=str,
         help="Connect to host.")
-    parser.add_argument("-p", "--port",
+    parser.add_argument("-P", "--port",
         default=3306,
         nargs='?',
         type=int,
@@ -72,7 +72,7 @@ def get_args_parser():
         nargs='?',
         type=str,
         help="User for login if not current user.")
-    parser.add_argument("-P", "--password",
+    parser.add_argument("-p", "--password",
         default='',
         nargs='?',
         type=str,
